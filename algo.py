@@ -60,7 +60,7 @@ def display(i):
     file.close()
 
 exit = False
-file = open("dates.txt", "w")
+file = open("dates.txt", "a")
 file.close()
 while (not exit):
     i = input("Input menu selection or M for menu: ")
